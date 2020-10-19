@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jennifer Vu</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+
+  <script src="https://kit.fontawesome.com/dc83b39b4d.js" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Jennifer Vu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#abtme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects-title">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-phrase">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Hello,</h1>
+          <h2>I'm Jennifer!</h2>
+        </div>
+        <div class="col-lg-6">
+          <i class="icon fas fa-seedling fa-10x"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="abtme">
+
+    <div class="row">
+      <div class="feature-box col-lg-6">
+        <h3>About Me</h3>
+        <p>I am a second year Honours Mathematics student at the University of
+          Waterloo. Over this past year, I have developed a keen interest in
+          technology and finance, and have expanded my skillset through self-learning
+          and academics.
+          I am always excited by the opportunity to
+          learn and work with those around me!
+          Currently, I am seeking
+          opportunities for a Winter 2021 co-op.</p>
+      </div>
+      <div class="feature-box col-lg-6">
+        <img class="aboutme-image" src="images/pfp-cropped.png" alt="aboutme">
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Projects -->
+
+  <section id="projects-title">
+    <h3>Projects</h3>
+  </section>
+
+  <section id="projects">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="false" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="feature-box col-lg-6">
+              <img class="annuity-lump-img" src="images/annuity-lump.jpg" alt="annuity-lump">
+            </div>
+            <div class="feature-box col-lg-6">
+              <h4> Future Value Comparison</h4>
+              <p> This project is a calculator that compares the future values of an annuity
+            and a lump sum payment to maximize profits. The program was built using HTML, CSS,
+          Bootstrap, and JavaScript. </p>
+
+          <section id="button">
+            <a href="/Users/jennifervu/Desktop/Annuity Calculator/index.html" target="_blank">  <button id="button" type="button" class="btn btn-dark">Check it out here!</button></a>
+
+          </section>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="feature-box col-lg-6">
+              <img class="test-im" src="images/pong-uncropped.png" alt="pong">
+            </div>
+            <div class="feature-box col-lg-6">
+              <h4>Multiplayer Pong</h4>
+              <p>This project is a multiplayer pong game that was built using Python and Python's turtle module.
+              It also has responsive features such as sound effects, key controls, and a point system.</p>
+
+
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="feature-box col-lg-6">
+              <img class="web-dev-icon" src="images/web-dev-icon.png" alt="web-dev-icon">
+            </div>
+            <div class="feature-box col-lg-6">
+              <h4> Personal Website</h4>
+              <p> This website was built using HTML, CSS, and Bootstrap. I hope you're enjoying it!</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Contact -->
+
+  <section id="contact-phrase">
+    <h3>Let's get in touch!</h3>
+  </section>
+
+  <section id="contact-button">
+    <a href="mailto:j27vu@uwaterloo.ca">
+      <i class="contact fas fa-envelope-square fa-5x"></i>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Jennifer Vu 2020</p>
+
+  </footer>
+
+
+</body>
+
+</html>
