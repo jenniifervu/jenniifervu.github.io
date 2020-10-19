@@ -1,0 +1,25 @@
+h1 {
+  padding: 3% 7%;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+  background-color: #adaba7;
+}
+
+.btn-calc {
+  width: 51.85%;
+}
+
+#button-place {
+  padding-top: 3%;
+}
+
+#result {
+  padding-top: 4%;
+  align-items: center;
+
+}
